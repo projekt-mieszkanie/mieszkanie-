@@ -1,0 +1,107 @@
+#content{
+    height: 700px;
+    width: 802px;
+    margin: auto;
+    background-color: white;
+    border-radius: 30px;
+}
+
+.circle{
+    display: inline-block;
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    border: solid;
+    border-width: 3px;
+    border-color: rgba(22, 22, 22, 0.64);
+    border-radius: 30px;
+}
+
+#month{
+    display: inline-block;
+    vertical-align: middle;
+    height: 70px;
+    width: 400px;
+    text-align: center;
+}
+
+.month-text{
+    font-size: 60px;
+    opacity: 0.7;
+}
+
+#top{
+    padding-top: 15px;
+    text-align: center;
+    height: 90px;
+}
+
+#dates{
+    width: 100%;
+}
+
+.row{
+    height: 110px;
+}
+
+hr{
+    margin:0;
+}
+
+table{
+    width: 100%;
+    font-size: 20px;
+    opacity: 0.7;
+}
+
+th{
+    width:115px;
+}
+
+.block{
+    display: inline-block;
+    vertical-align: top;
+    width: 118px;
+    height: 100%;
+    text-align: center;
+    font-size: 90px;
+    margin-right: -4px;
+    border-radius: 15px;
+    cursor:pointer;
+}
+
+.block:hover{
+    background-color: rgb(187, 255, 192);
+}
+
+.old{
+    color: rgba(147,147,147,0.59);
+}
+
+.today{
+    width:112px;
+    height: 96%;
+    border: solid;
+    border-width: 3px;
+    border-color: #7a28c9;
+}
+
+
+.activated{
+    position: absolute;
+    width:230px;
+    height: 222px;
+    background-color: rgb(187, 255, 192);
+    border-radius: 15px;
+}
+
+
+
+
+
+
+
+
+
+
+

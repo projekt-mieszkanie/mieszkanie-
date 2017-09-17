@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+
+</head>
+<body>
+<script>
+
+        var d=new Date();
+        var date=d.getDate();
+        var day=d.getDay();
+        var maxdays=new Date(d.getFullYear(),d.getMonth()+1,0).getDate();
+        d.setDate(d.getDate()-20);
+        document.write(date);
+
+</script>
+</body>
+</html>
